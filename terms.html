@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>1 Gap Breaker Terms of Service</title>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;800&family=Noto+Sans+JP:wght@400;700&display=swap">
+<style>
+  /* 1カラムの規約文書。上部に虹色のブロック列（チャンネルのモチーフ）を1本だけ置く */
+  :root {
+    --bg: #f6f6fb; --fg: #1b1c2e; --muted: #5d6077; --rule: #dcdcea; --accent: #3a56d4; --panel: #ffffff;
+    --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+    --body: "Noto Sans JP", "Hiragino Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0e1024; --fg: #e9e9f6; --muted: #a2a5c0; --rule: #2a2d4a; --accent: #8ea2ff; --panel: #15183a;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0e1024; --fg: #e9e9f6; --muted: #a2a5c0; --rule: #2a2d4a; --accent: #8ea2ff; --panel: #15183a;
+    color-scheme: dark;
+  }
+  body {
+    margin: 0;
+    background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.75;
+    padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 40px 64px;
+  }
+  main { max-width: 680px; margin: 0 auto; display: grid; gap: 28px; }
+  .bricks { display: grid; grid-template-columns: repeat(8, 1fr); gap: 4px; max-width: 320px; }
+  .bricks span { height: 14px; border-radius: 3px; }
+  h1 { font-family: var(--display); font-weight: 800; font-size: clamp(28px, 6vw, 40px); line-height: 1.15;
+       margin: 0; text-wrap: balance; }
+  .meta { color: var(--muted); font-size: 14px; margin: 6px 0 0; }
+  section { display: grid; gap: 10px; border-top: 1px solid var(--rule); padding-top: 22px; }
+  h2 { font-family: var(--display); font-weight: 800; font-size: 20px; margin: 0; }
+  p, ul { margin: 0; }
+  ul { padding-left: 1.2em; display: grid; gap: 6px; }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .ja { color: var(--muted); font-size: 15px; }
+  code { font-size: 14px; background: var(--panel); border: 1px solid var(--rule); border-radius: 4px; padding: 1px 5px; }
+</style>
+</head>
+<body>
+
+<main>
+  <header>
+    <div class="bricks" aria-hidden="true">
+      <span style="background:#ff466e"></span><span style="background:#ff7846"></span><span style="background:#ffbe3c"></span><span style="background:#bee646"></span>
+      <span style="background:#46dc8c"></span><span style="background:#3cc8e6"></span><span style="background:#5a82ff"></span><span style="background:#aa64ff"></span>
+    </div>
+    <h1 style="margin-top:18px">Terms of Service<br>1 Gap Breaker / Brick Rush Uploader</h1>
+    <p class="meta">Effective date: October 22, 2026 ・ 施行日：2026年10月22日</p>
+  </header>
+
+  <section>
+    <h2>Scope</h2>
+    <p>These terms apply to Brick Rush Uploader, a private tool used only by the owner of the YouTube channel “1 Gap Breaker” to upload videos to that channel. The tool is not distributed, sold, or offered to anyone else.</p>
+    <p class="ja">本規約は、YouTube チャンネル「1 Gap Breaker」の運営者が自分のチャンネルに動画を投稿するためだけに使う個人用ツール「Brick Rush Uploader」に適用されます。本ツールを他人に配布、販売、提供することはありません。</p>
+  </section>
+
+  <section>
+    <h2>YouTube Terms of Service</h2>
+    <p>This tool uses YouTube API Services. By using it, users agree to be bound by the <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">YouTube Terms of Service</a>. Use of Google data is governed by the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and our <a href="privacy.html">Privacy Policy</a>.</p>
+    <p class="ja">本ツールは YouTube API サービスを利用しています。利用者は YouTube 利用規約に同意したものとみなされます。データの取り扱いは Google プライバシーポリシーと当方のプライバシーポリシーに従います。</p>
+  </section>
+
+  <section>
+    <h2>Acceptable use</h2>
+    <ul>
+      <li>The tool only uploads original videos created by the channel owner to the owner's own channel.</li>
+      <li>It must not be used to upload content that infringes the rights of others or violates YouTube's Community Guidelines.</li>
+      <li>It does not access, collect, or modify any other user's data or channel.</li>
+    </ul>
+    <p class="ja">本ツールは、運営者が自分で作った動画を自分のチャンネルに投稿するためだけに使います。他者の権利を侵害する内容や、YouTube コミュニティ ガイドラインに反する内容の投稿には使いません。他のユーザーやチャンネルのデータにはアクセスしません。</p>
+  </section>
+
+  <section>
+    <h2>Changes and contact</h2>
+    <p>If these terms change, the effective date above will be updated. Questions can be sent to <span>konayuki0510@gmail.com</span>.</p>
+    <p class="ja">本規約を変更した場合は、上の施行日を更新します。お問い合わせは上記のメールアドレスまでお願いします。</p>
+  </section>
+  <nav class="meta"><a href="./">Home</a> ・ <a href="privacy.html">Privacy Policy</a> ・ <a href="terms.html">Terms of Service</a></nav>
+</main>
+</body>
+</html>
